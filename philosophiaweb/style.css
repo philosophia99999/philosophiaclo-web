@@ -1,0 +1,236 @@
+/* Reset & Font */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+  }
+  .logo {
+    color: gold;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #d6ab1c;
+    font-weight: 500;
+  }
+  nav a:hover {
+    color: gold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('images/hero.jpg') center/cover no-repeat;
+    background-color: #222;
+  }
+  .hero h2 {
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    background-color: gold;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* Produk Section */
+  .produk {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #1a1a1a;
+  }
+  .produk h3 {
+    font-size: 2rem;
+    color: gold;
+    margin-bottom: 2rem;
+  }
+  .produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .produk-item {
+    background: #222;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 250px;
+  }
+  .produk-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .produk-item h4 {
+    margin-top: 1rem;
+    color: gold;
+  }
+  
+  /* Tentang Section */
+  .tentang {
+    background-color: #111;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  .tentang h3 {
+    color: gold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Order Section */
+  .order {
+    text-align: center;
+    padding: 2rem;
+    background: #000;
+  }
+  .btn-order {
+    background-color: gold;
+    color: #000;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #111;
+    font-size: 0.9rem;
+    color: #aaa;
+  }.btn-order i {
+  margin-right: 8px;
+}.before-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+philosophia/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    └── kaos-premium.jpg
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1rem;
+  color: gold;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.3s;
+  user-select: none;
+}
+.prev { left: 0; }
+.next { right: 0; }
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: gold;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.close {
+  position: absolute;
+  top: 20px; right: 30px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-size: 24px;
+  user-select: none;
+  transform: translateY(-50%);
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
+
+  
